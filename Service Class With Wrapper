@@ -25,7 +25,7 @@ global class StudentApiWrapperTest {
         RestRequest req = RestContext.request;
         RestResponse res = RestContext.response;
         Map<String,String> paramsMap = RestContext.request.params;
-        String studentsContactId = paramsMap.get('id'); 
+        String studentsContactId = paramsMap.get('id'); //0036D00000MmjKt
         
         set<id> testMasterid = new set<Id>();
         set<id> STAid = new set<Id>();
@@ -45,16 +45,18 @@ global class StudentApiWrapperTest {
         Map<String, List<string>> STAbyCourseEnrollment = new Map<String, List<string>>();
         Map<Id,Student_Test_Association__c> STAbyId = new Map<Id,Student_Test_Association__c>();
         
-        courseEnrollmentMapById = new Map<Id, Course_Enrollment__c>( [SELECT Id FROM Course_Enrollment__c WHERE Contact__c =: studentsContactId]);
-        STAlist = [SELECT Course_Enrollment__c,Id,Test_Master__c FROM Student_Test_Association__c WHERE Contact__c = : studentsContactId];
+        //2
+        courseEnrollmentMapById = new Map<Id, Course_Enrollment__c>([SELECT Applied_by__c,Average_Rating__c,Contact__c,Count_of_Ratings__c,Course_Master_Name__c,Course_Master__c,Enrollment_Date__c,Id,Image_URL__c,Mentoring_Fee__c,Mentor_Course_Enrollment__c,Mentor__c,Name,Schedule_End_Date__c,Schedule_Start_Date__c,Session_Percentage__c,Status__c,Students_Enrolled__c,Students_to_Be_Alloted__c,Total_Hours__c,Total_Points__c,Total_Rating__c,Total_Sessions_Completed_By_Student__c,Total_Sessions_Completed__c,Total_Sessions__c,Total_Session_of_Students__c FROM Course_Enrollment__c WHERE Contact__c =: studentsContactId]);//
+        //3
+        STAlist = [SELECT CE_Module__c,Contact__c,Course_Enrollment__c,Id,Test_Type__c,Name,Status__c,Template__c,Test_Master__c,Total_Marks_Obtained__c,Total_Questions__c FROM Student_Test_Association__c WHERE Contact__c = : studentsContactId];
         
         if(!STAlist.isEmpty()){
             for(Student_Test_Association__c sta : STAlist){
-                testMasterid.add(sta.Test_Master__c);
-                STAid.add(sta.Id);
-                TestMasterBySTA.put( sta.Id,sta.Test_Master__c);
-                courseEnrollmentByStaId.put(sta.Id, courseEnrollmentMapById.get(sta.Course_Enrollment__c));
-                STAbyId.put(sta.Id, sta);
+                testMasterid.add(sta.Test_Master__c); //3
+                STAid.add(sta.Id); //3
+                TestMasterBySTA.put( sta.Id,sta.Test_Master__c);//3
+                courseEnrollmentByStaId.put(sta.Id, courseEnrollmentMapById.get(sta.Course_Enrollment__c));//3
+                STAbyId.put(sta.Id, sta);//3
                 if(STAbyCourseEnrollment.containsKey(sta.Course_Enrollment__c)){
                     List<string> STAtoBEAdded = STAbyCourseEnrollment.get(sta.Course_Enrollment__c);
                     STAtoBEAdded.add(sta.Id);
@@ -89,7 +91,7 @@ global class StudentApiWrapperTest {
             }
         }
         if(!assementQuestionMasterId.isEmpty()){
-            assessmentQuestionList = [SELECT Answer_Choice__c,Answer_Number__c,Answer_Picklist__c,Answer_Type__c,Assessment_Question_Master__c,Expected_Answer__c,Name,Question__c FROM Assessment_Question__c WHERE Assessment_Question_Master__c = :  assementQuestionMasterId];
+            assessmentQuestionList = [SELECT Answer_Choice__c,Answer_Number__c,Answer_Picklist__c,Answer_Type__c,Assessment_Question_Master__c,Expected_Answer__c,Name,Question__c,Category__c FROM Assessment_Question__c WHERE Assessment_Question_Master__c = :  assementQuestionMasterId];
         }
         if(!assessmentQuestionList.isEmpty()){
             
@@ -116,12 +118,14 @@ global class StudentApiWrapperTest {
         }
         StudentTestAPIWrapper wrapInstance = new StudentTestAPIWrapper();
         wrapInstance.Result = New List<StudentTestAPIWrapper.cls_Course_Enrollment>();
-        StudentTestAPIWrapper.cls_Course_Enrollment courseEnrollmentWrap = new StudentTestAPIWrapper.cls_Course_Enrollment();
-        courseEnrollmentWrap.sta = new List<StudentTestAPIWrapper.cls_sta>();
+        
         
         if(!STAbyCourseEnrollment.isEmpty()){
             for(String courseEnrollmentId : STAbyCourseEnrollment.Keyset()){
                 List<String> studentTestAssociationsUnderOneEnrollment = STAbyCourseEnrollment.get(courseEnrollmentId);
+                StudentTestAPIWrapper.cls_Course_Enrollment courseEnrollmentWrap = new StudentTestAPIWrapper.cls_Course_Enrollment();
+                courseEnrollmentWrap.sta = new List<StudentTestAPIWrapper.cls_sta>();
+                
                 for(String StudentTestAssociation : studentTestAssociationsUnderOneEnrollment){
                     StudentTestAPIWrapper.cls_sta staWrap = new StudentTestAPIWrapper.cls_sta();
                     
