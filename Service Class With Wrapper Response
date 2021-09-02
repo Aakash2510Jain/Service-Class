@@ -1,0 +1,361 @@
+{
+  "Result" : [ {
+    "sta" : [ {
+      "starc" : [ {
+        "attributes" : {
+          "type" : "Result_Category__c",
+          "url" : "/services/data/v52.0/sobjects/Result_Category__c/a0s6D000002LxKRQA0"
+        },
+        "Id" : "a0s6D000002LxKRQA0",
+        "Name" : "asdasd",
+        "Percentage_Obtained__c" : 100.00,
+        "Right_Answered_Ques__c" : 1,
+        "Student_Test_Association__c" : "a0r6D000001iIMLQA2",
+        "Total_Questions__c" : 1
+      } ],
+      "star" : null,
+      "staq" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZFQA2"
+        },
+        "Answer_Picklist__c" : "12.3E5,12e34,125.34857,All the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above",
+        "Name" : "Ques-0044",
+        "Question__c" : "Find a Floating Point constant.",
+        "Id" : "a0g6D0000013AZFQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZGQA2"
+        },
+        "Answer_Picklist__c" : "TRUE,FALSE,It depends on the place the variable is declared,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "TRUE",
+        "Name" : "Ques-0045",
+        "Question__c" : "A Variable of a particular type can hold only a constant of the same type. Choose right answer.",
+        "Id" : "a0g6D0000013AZGQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZHQA2"
+        },
+        "Answer_Picklist__c" : "short,int,long,All the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above",
+        "Name" : "Ques-0046",
+        "Question__c" : "Types of Integers are.?",
+        "Id" : "a0g6D0000013AZHQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZIQA2"
+        },
+        "Answer_Picklist__c" : "A Positive number,A Negative Number,An Unsigned number,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "A Positive number",
+        "Name" : "Ques-0047",
+        "Question__c" : "Left most bit 0 in Singed representation indicates.?",
+        "Id" : "a0g6D0000013AZIQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZKQA2"
+        },
+        "Answer_Picklist__c" : "Integer,Real number,Depends on the numbers used in the expression,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Real number",
+        "Name" : "Ques-0049",
+        "Question__c" : "Output of an arithmetic expression with integers and real numbers is ___ by default.?",
+        "Id" : "a0g6D0000013AZKQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZLQA2"
+        },
+        "Answer_Picklist__c" : "a = 10,a = 14.867,a = 14,compiler error.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "a = 14",
+        "Name" : "Ques-0050",
+        "Question__c" : "Choose a right statement-int a = 10 + 4.867;",
+        "Id" : "a0g6D0000013AZLQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZMQA2"
+        },
+        "Answer_Picklist__c" : "var = 8.0,var = 8,var = 7,var = 0.0",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "var = 8.0",
+        "Name" : "Ques-0051",
+        "Question__c" : "Choose a right statement-float var = 3.5 + 4.5;",
+        "Id" : "a0g6D0000013AZMQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZNQA2"
+        },
+        "Answer_Picklist__c" : "* > / > %,% > * > /.Both % = / and  *  are same,All three are same.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All three are same.",
+        "Name" : "Ques-0052",
+        "Question__c" : "What is the priority of operators *, / and % in C language.?",
+        "Id" : "a0g6D0000013AZNQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZOQA2"
+        },
+        "Answer_Picklist__c" : "?:,:?,:<,<:",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "?:",
+        "Name" : "Ques-0053",
+        "Question__c" : "Choose a C Conditional Operator from the list.",
+        "Id" : "a0g6D0000013AZOQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZPQA2"
+        },
+        "Answer_Picklist__c" : "else if is compulsory to use with if statement,else is compulsory to use with if statement,else or else if is optional with if statement,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "else or else if is optional with if statement",
+        "Name" : "Ques-0054",
+        "Question__c" : "Choose a statement to use C If Else statement.",
+        "Id" : "a0g6D0000013AZPQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZQQA2"
+        },
+        "Answer_Picklist__c" : "NOT (!) > AND (&&)  > OR (||),NOT (!) > AND (&&) = OR (||),AND (&&) > OR (||) > NOT (!),AND (&&) = OR (||) > NOT (!)",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "NOT (!) > AND (&&)  > OR (||)",
+        "Name" : "Ques-0055",
+        "Question__c" : "What is the Priority of C Logical Operators.? NOT (!), AND (&&) and OR (||)",
+        "Id" : "a0g6D0000013AZQQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZRQA2"
+        },
+        "Answer_Picklist__c" : "condition ? expression1 : expression2,condition : expression1 ? expression2,condition ? expression1 < expression2,condition < expression1 ? expression2",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "condition ? expression1 : expression2",
+        "Name" : "Ques-0056",
+        "Question__c" : "Choose a syntax for C Ternary Operator from the list.",
+        "Id" : "a0g6D0000013AZRQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZSQA2"
+        },
+        "Answer_Picklist__c" : "A Function is a group of c statements which can be reused any number of times.,Every Function has a return type.,Every Function may no may not return a value.,All the above.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above.",
+        "Name" : "Ques-0057",
+        "Question__c" : "Choose correct statement about Functions in C Language.",
+        "Id" : "a0g6D0000013AZSQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZTQA2"
+        },
+        "Answer_Picklist__c" : "Self Function,Auto Function,Recursive Function,Static Function",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Recursive Function",
+        "Name" : "Ques-0058",
+        "Question__c" : "A function which calls itself is called a ___ function.",
+        "Id" : "a0g6D0000013AZTQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZUQA2"
+        },
+        "Answer_Picklist__c" : "Only One Value,Maximum of two values,Maximum of three values,Maximum of 8 values",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Only One Value",
+        "Name" : "Ques-0059",
+        "Question__c" : "How many values can a C Function return at a time.?",
+        "Id" : "a0g6D0000013AZUQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZVQA2"
+        },
+        "Answer_Picklist__c" : "Library Functions,User Defined Functions,Both Library and User Defined,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Both Library and User Defined",
+        "Name" : "Ques-0060",
+        "Question__c" : "What are types of Functions in C Language.?",
+        "Id" : "a0g6D0000013AZVQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZWQA2"
+        },
+        "Answer_Picklist__c" : "printf(),show(),scanf(),main()",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "main()",
+        "Name" : "Ques-0061",
+        "Question__c" : "Every C Program should contain which function.?",
+        "Id" : "a0g6D0000013AZWQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZJQA2"
+        },
+        "Answer_Picklist__c" : "Percentage Operator,Quotient Operator,Modulus,Division",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Modulus",
+        "Name" : "Ques-0048",
+        "Question__c" : "Operator % in C Language is called.?",
+        "Id" : "a0g6D0000013AZJQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZ9QAM"
+        },
+        "Answer_Picklist__c" : "Object Oriented,Procedural,Bit level language,Functional",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Procedural",
+        "Name" : "Ques-0038",
+        "Question__c" : "C is _______ type of programming language.?",
+        "Id" : "a0g6D0000013AZ9QAM"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZAQA2"
+        },
+        "Answer_Picklist__c" : "Android,Linux,Ubuntu,Unix",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Unix",
+        "Name" : "Ques-0039",
+        "Question__c" : "C language was invented to develop which Operating System.?",
+        "Id" : "a0g6D0000013AZAQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZBQA2"
+        },
+        "Answer_Picklist__c" : "Databases,Graphic applications,Word Processors,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All of the above",
+        "Name" : "Ques-0040",
+        "Question__c" : "C language is used in the development of .?",
+        "Id" : "a0g6D0000013AZBQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZCQA2"
+        },
+        "Answer_Picklist__c" : "Statements,Functions,Variables,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All of the above",
+        "Name" : "Ques-0041",
+        "Question__c" : "C program is a combination of.?",
+        "Id" : "a0g6D0000013AZCQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZDQA2"
+        },
+        "Answer_Picklist__c" : "Alphabet,Underscore,Any character that can be typed on a keyboard,Option A & Option B",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Option A & Option B",
+        "Name" : "Ques-0042",
+        "Question__c" : "An Identifier can start with.?",
+        "Id" : "a0g6D0000013AZDQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZEQA2"
+        },
+        "Answer_Picklist__c" : "3.145,34,\"125\",None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "34",
+        "Name" : "Ques-0043",
+        "Question__c" : "Find an integer constant.",
+        "Id" : "a0g6D0000013AZEQA2"
+      } ],
+      "record" : {
+        "attributes" : {
+          "type" : "Student_Test_Association__c",
+          "url" : "/services/data/v52.0/sobjects/Student_Test_Association__c/a0r6D000001iIMLQA2"
+        },
+        "Course_Enrollment__c" : "a0i6D000000fYWdQAM",
+        "Id" : "a0r6D000001iIMLQA2",
+        "Test_Master__c" : "a0c6D000000kvOfQAI"
+      }
+    }, {
+      "starc" : null,
+      "star" : null,
+      "staq" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013LzBQAU"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlkdQAC",
+        "Expected_Answer__c" : "1",
+        "Name" : "Ques-0270",
+        "Question__c" : "question 1",
+        "Id" : "a0g6D0000013LzBQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013LzGQAU"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlkdQAC",
+        "Expected_Answer__c" : "4",
+        "Name" : "Ques-0271",
+        "Question__c" : "question 2",
+        "Id" : "a0g6D0000013LzGQAU"
+      } ],
+      "record" : {
+        "attributes" : {
+          "type" : "Student_Test_Association__c",
+          "url" : "/services/data/v52.0/sobjects/Student_Test_Association__c/a0r6D000001iIMVQA2"
+        },
+        "Course_Enrollment__c" : "a0i6D000000fYWdQAM",
+        "Id" : "a0r6D000001iIMVQA2",
+        "Test_Master__c" : "a0c6D000000l6hLQAQ"
+      }
+    } ],
+    "record" : {
+      "attributes" : {
+        "type" : "Course_Enrollment__c",
+        "url" : "/services/data/v52.0/sobjects/Course_Enrollment__c/a0i6D000000fYWdQAM"
+      },
+      "Id" : "a0i6D000000fYWdQAM"
+    }
+  } ]
+}
