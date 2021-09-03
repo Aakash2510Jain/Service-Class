@@ -196,3 +196,1416 @@ global class MentorAssessmentQuestionWrapperHelper {
         }
     }    
 }
+------------------------------------------------------------------------------------------------------------------------------------
+response: 
+
+{
+  "Result" : [ {
+    "record" : {
+      "attributes" : {
+        "type" : "Course_Enrollment__c",
+        "url" : "/services/data/v52.0/sobjects/Course_Enrollment__c/a0i6D000000fXSsQAM"
+      },
+      "Applied_by__c" : "Mentor",
+      "Contact__c" : "0036D00000Ob0pkQAB",
+      "Count_of_Ratings__c" : 0,
+      "Course_Master_Name__c" : "Web Designing",
+      "Course_Master__c" : "a0b6D000001PCNjQAO",
+      "Enrollment_Date__c" : "2021-08-28",
+      "Id" : "a0i6D000000fXSsQAM",
+      "Image_URL__c" : "https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg",
+      "Mentoring_Fee__c" : 0.00,
+      "Name" : "CE-00408",
+      "Schedule_End_Date__c" : "2021-08-28",
+      "Session_Percentage__c" : 0.00,
+      "Status__c" : "Requested by Mentor",
+      "Students_Enrolled__c" : 0,
+      "Students_to_Be_Alloted__c" : 0,
+      "Total_Points__c" : 0.00,
+      "Total_Rating__c" : 0,
+      "Total_Sessions_Completed_By_Student__c" : 0,
+      "Total_Sessions_Completed__c" : 0,
+      "Total_Sessions__c" : 4,
+      "Total_Session_of_Students__c" : 0
+    },
+    "CourseMaster" : [ {
+      "record" : {
+        "attributes" : {
+          "type" : "Course_Master__c",
+          "url" : "/services/data/v52.0/sobjects/Course_Master__c/a0b6D000001PCNjQAO"
+        },
+        "Active__c" : true,
+        "Brand__c" : "#D97706",
+        "Count_of_Ratings__c" : 0,
+        "Course_Category__c" : "a146D000000dB9yQAE",
+        "Course_Price__c" : 799,
+        "Description__c" : "<ul><li>Become a modern and confident HTML and CSS developer, no prior knowledge needed!</li><li>Design and build a stunning real-world project for your portfolio from scratch</li><li>Modern, semantic and accessible HTML5</li><li>Modern CSS (previous CSS3), including flexbox and CSS Grid for layout</li><li>Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.</li><li>A web design framework with easy-to-use rules and guidelines to design eye-catching websites</li><li>How to plan, sketch, design, build, test, and optimize a professional website</li><li>How to make websites work on every possible mobile device (responsive design)</li><li>How to use common components and layout patterns for professional website design and development</li><li>Developer skills such as reading documentation, debugging, and using professional tools</li><li>How to find and use free design assets such as images, fonts, and icons</li><li>Practice your skills with 10+ challenges (solutions included)</li></ul>",
+        "Id" : "a0b6D000001PCNjQAO",
+        "Name" : "Web Designing",
+        "Paid_Course__c" : true,
+        "Short_Description__c" : "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design)",
+        "Thumbnail_URL__c" : "https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg",
+        "Total_Mentor_Enrolments__c" : 3,
+        "Total_Reviews__c" : 0,
+        "Total_Sessions__c" : 4,
+        "Total_Session_Hours__c" : "15:00",
+        "Total_Student_Enrolments__c" : 2
+      },
+      "Pre" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaLQAU"
+        },
+        "Answer_Picklist__c" : "<pre>,<a>,<b>,<br>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "<b>",
+        "Name" : "Ques-0112",
+        "Question__c" : "Which of the following element is responsible for making the text bold in HTML?",
+        "Id" : "a0g6D0000013AaLQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaMQAU"
+        },
+        "Answer_Picklist__c" : "<h3>,<h1>,<h5>,<h6>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "<h1>",
+        "Name" : "Ques-0113",
+        "Question__c" : "Which of the following tag is used for inserting the largest heading in HTML?",
+        "Id" : "a0g6D0000013AaMQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaNQAU"
+        },
+        "Answer_Picklist__c" : "<br>,<a>,<pre>,<b>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "<br>",
+        "Name" : "Ques-0114",
+        "Question__c" : "Which of the following tag is used to insert a line-break in HTML?",
+        "Id" : "a0g6D0000013AaNQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaOQAU"
+        },
+        "Answer_Picklist__c" : "\\,!,/,.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "/",
+        "Name" : "Ques-0115",
+        "Question__c" : "Which character is used to represent the closing of a tag in HTML?",
+        "Id" : "a0g6D0000013AaOQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaPQAU"
+        },
+        "Answer_Picklist__c" : "<i>,<ul>,<u>,<pre>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "<u>",
+        "Name" : "Ques-0116",
+        "Question__c" : "Which of the following tag is used to make the underlined text?",
+        "Id" : "a0g6D0000013AaPQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaQQAU"
+        },
+        "Answer_Picklist__c" : "Cascade style sheets,Color and style sheets,Cascading style sheets,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "Cascading style sheets",
+        "Name" : "Ques-0117",
+        "Question__c" : "CSS stands for -",
+        "Id" : "a0g6D0000013AaQQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaRQAU"
+        },
+        "Answer_Picklist__c" : "bgcolor,color,background-color,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "background-color",
+        "Name" : "Ques-0118",
+        "Question__c" : "The property in CSS used to change the background color of an element is -",
+        "Id" : "a0g6D0000013AaRQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaSQAU"
+        },
+        "Answer_Picklist__c" : "text-style,text-size,font-size,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "font-size",
+        "Name" : "Ques-0119",
+        "Question__c" : "The CSS property used to control the element's font-size is -",
+        "Id" : "a0g6D0000013AaSQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaTQAU"
+        },
+        "Answer_Picklist__c" : "style,styles,<div>,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "style",
+        "Name" : "Ques-0120",
+        "Question__c" : "The HTML attribute used to define the inline styles is -",
+        "Id" : "a0g6D0000013AaTQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaUQAU"
+        },
+        "Answer_Picklist__c" : "padding-left,padding-right,padding,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "padding",
+        "Name" : "Ques-0121",
+        "Question__c" : "Which of the following property is used as the shorthand property for the padding properties?",
+        "Id" : "a0g6D0000013AaUQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaVQAU"
+        },
+        "Answer_Picklist__c" : "Object-Oriented,Object-Based,Assembly-language,High-level",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "Object-Based",
+        "Name" : "Ques-0122",
+        "Question__c" : "Which type of JavaScript language is ___",
+        "Id" : "a0g6D0000013AaVQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaWQAU"
+        },
+        "Answer_Picklist__c" : "Alternative to if-else,Switch statement,If-then-else statement,immediate if",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "immediate if",
+        "Name" : "Ques-0123",
+        "Question__c" : "Which one of the following also known as Conditional Expression:",
+        "Id" : "a0g6D0000013AaWQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaXQAU"
+        },
+        "Answer_Picklist__c" : "Conditional block,block that combines a number of statements into a single compound statement,both conditional block and a single statement,block that contains a single statement",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "block that combines a number of statements into a single compound statement",
+        "Name" : "Ques-0124",
+        "Question__c" : "In JavaScript, what is a block of statement?",
+        "Id" : "a0g6D0000013AaXQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaYQAU"
+        },
+        "Answer_Picklist__c" : "Shows a warning,Prompts to complete the statement,Throws an error,Ignores the statements",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "Ignores the statements",
+        "Name" : "Ques-0125",
+        "Question__c" : "When interpreter encounters an empty statements, what it will do:",
+        "Id" : "a0g6D0000013AaYQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaZQAU"
+        },
+        "Answer_Picklist__c" : "Keywords,Data types,Declaration statements,Prototypes",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "Declaration statements",
+        "Name" : "Ques-0126",
+        "Question__c" : "The Function and Var are known as:",
+        "Id" : "a0g6D0000013AaZQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaaQAE"
+        },
+        "Answer_Picklist__c" : "TRUE,FALSE,Can't say,May be",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "TRUE",
+        "Name" : "Ques-0127",
+        "Question__c" : "Is Bootstrap3 mobile-first?",
+        "Id" : "a0g6D0000013AaaQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AabQAE"
+        },
+        "Answer_Picklist__c" : ".container-fixed,.container-fluid,.container,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : ".container",
+        "Name" : "Ques-0128",
+        "Question__c" : "Which of the following class in Bootstrap is used to provide a responsive fixed width container?",
+        "Id" : "a0g6D0000013AabQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AacQAE"
+        },
+        "Answer_Picklist__c" : "8,10,11,12",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "12",
+        "Name" : "Ques-0129",
+        "Question__c" : "How many columns are allowed in a bootstrap grid system?",
+        "Id" : "a0g6D0000013AacQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AadQAE"
+        },
+        "Answer_Picklist__c" : ".navbar-default,.navbar-inverse,.navbar-black,.navbar-dark",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : ".navbar-inverse",
+        "Name" : "Ques-0130",
+        "Question__c" : "Which of the following class is used to create a black navigation bar?",
+        "Id" : "a0g6D0000013AadQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AaeQAE"
+        },
+        "Answer_Picklist__c" : "slideshow,scrollspy,carousel,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SdmxQAC",
+        "Expected_Answer__c" : "carousel",
+        "Name" : "Ques-0131",
+        "Question__c" : "The plugin used to create a cycle through elements as a slideshow is -",
+        "Id" : "a0g6D0000013AaeQAE"
+      } ],
+      "Post" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlzQAE"
+        },
+        "Answer_Picklist__c" : "a {underline:none;},a {text-decoration:none;},a {decoration:no-underline;},None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "a {text-decoration:none;}",
+        "Name" : "Ques-0157",
+        "Question__c" : "How do you display hyperlinks without an underline?",
+        "Id" : "a0g6D0000013JlzQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlQQAU"
+        },
+        "Answer_Picklist__c" : "<em>,<italic>,<i>,<emphasized>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<em>",
+        "Name" : "Ques-0150",
+        "Question__c" : "Choose the correct HTML element to define emphasized text",
+        "Id" : "a0g6D0000013JlQQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlGQAU"
+        },
+        "Answer_Picklist__c" : "<body style=\"background-color:yellow;\">,<body bg=\"yellow\">,<background>yellow</background>,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<body style=\"background-color:yellow;\">",
+        "Name" : "Ques-0148",
+        "Question__c" : "What is the correct HTML for adding a background color?",
+        "Id" : "a0g6D0000013JlGQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JluQAE"
+        },
+        "Answer_Picklist__c" : "body {color:black;},{body;color:black;},{body:color=black;},body{color=black;}",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "body {color:black;}",
+        "Name" : "Ques-0156",
+        "Question__c" : "Which is the correct CSS syntax?",
+        "Id" : "a0g6D0000013JluQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmEQAU"
+        },
+        "Answer_Picklist__c" : "function =myFunction(),function:myFunction(),function myFunction(),None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "function:myFunction()",
+        "Name" : "Ques-0160",
+        "Question__c" : "How do you create a function in JavaScript?",
+        "Id" : "a0g6D0000013JmEQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmJQAU"
+        },
+        "Answer_Picklist__c" : "client. appName,navigator. appName,browser. appName,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "navigator. appName",
+        "Name" : "Ques-0161",
+        "Question__c" : "How can you detect the client's browser name?",
+        "Id" : "a0g6D0000013JmJQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmdQAE"
+        },
+        "Answer_Picklist__c" : ".even and .odd,.table-zebra,.table-bordered,.table-striped",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : ".table-zebra",
+        "Name" : "Ques-0165",
+        "Question__c" : "Which class adds zebra-stripes to a table?",
+        "Id" : "a0g6D0000013JmdQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmOQAU"
+        },
+        "Answer_Picklist__c" : "onmouseout,onclick,onmouseover,onchange",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "onclick",
+        "Name" : "Ques-0162",
+        "Question__c" : "Which event occurs when the user clicks on an HTML element?",
+        "Id" : "a0g6D0000013JmOQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmYQAU"
+        },
+        "Answer_Picklist__c" : ".container-fluid,.container-fixed,.container,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : ".container-fluid",
+        "Name" : "Ques-0164",
+        "Question__c" : "Which class provides a full width container, spanning the entire width of the viewport?",
+        "Id" : "a0g6D0000013JmYQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlkQAE"
+        },
+        "Answer_Picklist__c" : "in the <head> section,in the <body>,at the end of document,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "in the <head> section",
+        "Name" : "Ques-0154",
+        "Question__c" : "Where in an HTML document is the correct place to refer to an external style sheet?",
+        "Id" : "a0g6D0000013JlkQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlLQAU"
+        },
+        "Answer_Picklist__c" : "<b>,<i>,<strong>,<important>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<strong>",
+        "Name" : "Ques-0149",
+        "Question__c" : "Choose the correct HTML element to define important text",
+        "Id" : "a0g6D0000013JlLQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013Jm4QAE"
+        },
+        "Answer_Picklist__c" : "<script src=\"xxx. js\">,<script name=\"xxx. js\">,<script href=\"xxx. js\">,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<script src=\"xxx. js\">",
+        "Name" : "Ques-0158",
+        "Question__c" : "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+        "Id" : "a0g6D0000013Jm4QAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlfQAE"
+        },
+        "Answer_Picklist__c" : "<style src=\"mystyle.css><link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle. css\">,<stylesheet>mystyle.css</style>,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle. css\">",
+        "Name" : "Ques-0153",
+        "Question__c" : "What is the correct HTML for referring to an external style sheet?",
+        "Id" : "a0g6D0000013JlfQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013Jm9QAE"
+        },
+        "Answer_Picklist__c" : "alert(\"Hello World\"),msg(\"Hello World\"),msgBox(\"Hello World\"),alertMsg(\"Hello World\")",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "alert(\"Hello World\")",
+        "Name" : "Ques-0159",
+        "Question__c" : "How do you write \"Hello World\" in an alert box?",
+        "Id" : "a0g6D0000013Jm9QAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmiQAE"
+        },
+        "Answer_Picklist__c" : ".img-rounded,.img-circle,.img-thumbnail,.img-responsive",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : ".img-circle",
+        "Name" : "Ques-0166",
+        "Question__c" : "Which class shapes an image to a circle?",
+        "Id" : "a0g6D0000013JmiQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmTQAU"
+        },
+        "Answer_Picklist__c" : ".container-fluid,.container-fixed,.container,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : ".container",
+        "Name" : "Ques-0163",
+        "Question__c" : "Which class provides a responsive fixed width container?",
+        "Id" : "a0g6D0000013JmTQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlVQAU"
+        },
+        "Answer_Picklist__c" : "<a href=\"URL\" target=\"_blank\">,<a href=\"URL\" target=\"new\">,<a href=\"URL\" new>,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<a href=\"URL\" target=\"_blank\">",
+        "Name" : "Ques-0151",
+        "Question__c" : "How can you open a link in a new tab/browser window?",
+        "Id" : "a0g6D0000013JlVQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JmnQAE"
+        },
+        "Answer_Picklist__c" : ".navbar-black,.navbar-inverse,.navbar-default,.navbar-dark",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : ".navbar-inverse",
+        "Name" : "Ques-0167",
+        "Question__c" : "Which class is used to create a black navigation bar?",
+        "Id" : "a0g6D0000013JmnQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlaQAE"
+        },
+        "Answer_Picklist__c" : "<ul>,<no>,<ol>,<dl>",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<ol>",
+        "Name" : "Ques-0152",
+        "Question__c" : "How can you make a numbered list?",
+        "Id" : "a0g6D0000013JlaQAE"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013JlpQAE"
+        },
+        "Answer_Picklist__c" : "<script>,<style>,<css>,None",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SkEDQA0",
+        "Expected_Answer__c" : "<style>",
+        "Name" : "Ques-0155",
+        "Question__c" : "Which HTML tag is used to define an internal style sheet?",
+        "Id" : "a0g6D0000013JlpQAE"
+      } ]
+    } ],
+    "CEModules" : [ {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lnuzQAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fXSsQAM",
+        "Course_Master__c" : "a0b6D000001PCNjQAO",
+        "Description__c" : "<ul><li>The <code>&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document</li><li>The <code>&lt;html&gt;</code> element is the root element of an HTML page</li><li>The <code>&lt;head&gt;</code> element contains meta information about the HTML page</li><li>The <code>&lt;title&gt;</code> element specifies a title for the HTML page (which is shown in the browser&#39;s title bar or in the page&#39;s tab)</li><li>The <code>&lt;body&gt;</code> element defines the document&#39;s body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li><li>The <code>&lt;h1&gt;</code> element defines a large heading</li><li>The <code>&lt;p&gt;</code> element defines a paragraph</li></ul>",
+        "Id" : "a0p6D000000lnuzQAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "Introduction to HTML Tags",
+        "Name" : "Html",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : null
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lnv0QAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fXSsQAM",
+        "Course_Master__c" : "a0b6D000001PCNjQAO",
+        "Description__c" : "<ul><li>JavaScript is the world&#39;s most popular programming language.</li><li>JavaScript is the programming language of the Web.</li><li>JavaScript is easy to learn.</li><li>This tutorial will teach you JavaScript from basic to advanced.</li></ul>",
+        "Id" : "a0p6D000000lnv0QAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "Introduction to Javascript",
+        "Name" : "Javascript",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013LzBQAU"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlkdQAC",
+        "Expected_Answer__c" : "1",
+        "Name" : "Ques-0270",
+        "Question__c" : "question 1",
+        "Id" : "a0g6D0000013LzBQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013LzGQAU"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlkdQAC",
+        "Expected_Answer__c" : "4",
+        "Name" : "Ques-0271",
+        "Question__c" : "question 2",
+        "Id" : "a0g6D0000013LzGQAU"
+      } ]
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lnv1QAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fXSsQAM",
+        "Course_Master__c" : "a0b6D000001PCNjQAO",
+        "Description__c" : "<ul><li>CSS stands for Cascading Style Sheets</li><li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li><li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li><li>External stylesheets are stored in CSS files</li></ul>",
+        "Id" : "a0p6D000000lnv1QAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "In-Line and External CSS to beautify web page",
+        "Name" : "CSS",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : null
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lnv2QAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fXSsQAM",
+        "Course_Master__c" : "a0b6D000001PCNjQAO",
+        "Description__c" : "<ul><li>Bootstrap is a free front-end framework for faster and easier web development</li><li>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</li><li>Bootstrap also gives you the ability to easily create responsive designs</li></ul>",
+        "Id" : "a0p6D000000lnv2QAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "Introduction to Bootstrap",
+        "Name" : "Bootstrap",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013M9QQAU"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlpgQAC",
+        "Expected_Answer__c" : "3",
+        "Name" : "Ques-0292",
+        "Question__c" : "question 3",
+        "Id" : "a0g6D0000013M9QQAU"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013M9VQAU"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlpgQAC",
+        "Expected_Answer__c" : "1",
+        "Name" : "Ques-0293",
+        "Question__c" : "question 4",
+        "Id" : "a0g6D0000013M9VQAU"
+      } ]
+    } ]
+  }, {
+    "record" : {
+      "attributes" : {
+        "type" : "Course_Enrollment__c",
+        "url" : "/services/data/v52.0/sobjects/Course_Enrollment__c/a0i6D000000fYgiQAE"
+      },
+      "Applied_by__c" : "Mentor",
+      "Contact__c" : "0036D00000Ob0pkQAB",
+      "Count_of_Ratings__c" : 0,
+      "Course_Master_Name__c" : "Basics of Coding",
+      "Course_Master__c" : "a0b6D000001PCNZQA4",
+      "Enrollment_Date__c" : "2021-09-03",
+      "Id" : "a0i6D000000fYgiQAE",
+      "Image_URL__c" : "https://thumbor.forbes.com/thumbor/fit-in/1200x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.png",
+      "Mentoring_Fee__c" : 0.00,
+      "Name" : "CE-00506",
+      "Schedule_End_Date__c" : "2021-09-03",
+      "Session_Percentage__c" : 0.00,
+      "Status__c" : "Requested by Mentor",
+      "Students_Enrolled__c" : 0,
+      "Students_to_Be_Alloted__c" : 0,
+      "Total_Points__c" : 0.00,
+      "Total_Rating__c" : 0,
+      "Total_Sessions_Completed_By_Student__c" : 0,
+      "Total_Sessions_Completed__c" : 0,
+      "Total_Sessions__c" : 5,
+      "Total_Session_of_Students__c" : 0
+    },
+    "CourseMaster" : [ {
+      "record" : {
+        "attributes" : {
+          "type" : "Course_Master__c",
+          "url" : "/services/data/v52.0/sobjects/Course_Master__c/a0b6D000001PCNZQA4"
+        },
+        "Active__c" : true,
+        "Brand__c" : "#4F46E5",
+        "Count_of_Ratings__c" : 0,
+        "Course_Category__c" : "a146D000000dB9yQAE",
+        "Course_Price__c" : 1999,
+        "Description__c" : "<ul><li>Programming Environment.</li><li>Data Types.</li><li>Variables.</li><li>Keywords.</li><li>Logical and Arithmetical Operators.</li><li>If else conditions.</li><li>Loops.</li><li>Numbers, Characters and Arrays.</li></ul>",
+        "Id" : "a0b6D000001PCNZQA4",
+        "Name" : "Basics of Coding",
+        "Paid_Course__c" : true,
+        "Short_Description__c" : "A step by step process of designing and developing various sets of computer programs to accomplish a specific computing outcome",
+        "Thumbnail_URL__c" : "https://thumbor.forbes.com/thumbor/fit-in/1200x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.png",
+        "Total_Mentor_Enrolments__c" : 7,
+        "Total_Reviews__c" : 0,
+        "Total_Sessions__c" : 5,
+        "Total_Session_Hours__c" : "05:00",
+        "Total_Student_Enrolments__c" : 5
+      },
+      "Pre" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZFQA2"
+        },
+        "Answer_Picklist__c" : "12.3E5,12e34,125.34857,All the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above",
+        "Name" : "Ques-0044",
+        "Question__c" : "Find a Floating Point constant.",
+        "Id" : "a0g6D0000013AZFQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZGQA2"
+        },
+        "Answer_Picklist__c" : "TRUE,FALSE,It depends on the place the variable is declared,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "TRUE",
+        "Name" : "Ques-0045",
+        "Question__c" : "A Variable of a particular type can hold only a constant of the same type. Choose right answer.",
+        "Id" : "a0g6D0000013AZGQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZHQA2"
+        },
+        "Answer_Picklist__c" : "short,int,long,All the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above",
+        "Name" : "Ques-0046",
+        "Question__c" : "Types of Integers are.?",
+        "Id" : "a0g6D0000013AZHQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZIQA2"
+        },
+        "Answer_Picklist__c" : "A Positive number,A Negative Number,An Unsigned number,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "A Positive number",
+        "Name" : "Ques-0047",
+        "Question__c" : "Left most bit 0 in Singed representation indicates.?",
+        "Id" : "a0g6D0000013AZIQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZKQA2"
+        },
+        "Answer_Picklist__c" : "Integer,Real number,Depends on the numbers used in the expression,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Real number",
+        "Name" : "Ques-0049",
+        "Question__c" : "Output of an arithmetic expression with integers and real numbers is ___ by default.?",
+        "Id" : "a0g6D0000013AZKQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZLQA2"
+        },
+        "Answer_Picklist__c" : "a = 10,a = 14.867,a = 14,compiler error.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "a = 14",
+        "Name" : "Ques-0050",
+        "Question__c" : "Choose a right statement-int a = 10 + 4.867;",
+        "Id" : "a0g6D0000013AZLQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZMQA2"
+        },
+        "Answer_Picklist__c" : "var = 8.0,var = 8,var = 7,var = 0.0",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "var = 8.0",
+        "Name" : "Ques-0051",
+        "Question__c" : "Choose a right statement-float var = 3.5 + 4.5;",
+        "Id" : "a0g6D0000013AZMQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZNQA2"
+        },
+        "Answer_Picklist__c" : "* > / > %,% > * > /.Both % = / and  *  are same,All three are same.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All three are same.",
+        "Name" : "Ques-0052",
+        "Question__c" : "What is the priority of operators *, / and % in C language.?",
+        "Id" : "a0g6D0000013AZNQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZOQA2"
+        },
+        "Answer_Picklist__c" : "?:,:?,:<,<:",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "?:",
+        "Name" : "Ques-0053",
+        "Question__c" : "Choose a C Conditional Operator from the list.",
+        "Id" : "a0g6D0000013AZOQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZPQA2"
+        },
+        "Answer_Picklist__c" : "else if is compulsory to use with if statement,else is compulsory to use with if statement,else or else if is optional with if statement,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "else or else if is optional with if statement",
+        "Name" : "Ques-0054",
+        "Question__c" : "Choose a statement to use C If Else statement.",
+        "Id" : "a0g6D0000013AZPQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZQQA2"
+        },
+        "Answer_Picklist__c" : "NOT (!) > AND (&&)  > OR (||),NOT (!) > AND (&&) = OR (||),AND (&&) > OR (||) > NOT (!),AND (&&) = OR (||) > NOT (!)",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "NOT (!) > AND (&&)  > OR (||)",
+        "Name" : "Ques-0055",
+        "Question__c" : "What is the Priority of C Logical Operators.? NOT (!), AND (&&) and OR (||)",
+        "Id" : "a0g6D0000013AZQQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZRQA2"
+        },
+        "Answer_Picklist__c" : "condition ? expression1 : expression2,condition : expression1 ? expression2,condition ? expression1 < expression2,condition < expression1 ? expression2",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "condition ? expression1 : expression2",
+        "Name" : "Ques-0056",
+        "Question__c" : "Choose a syntax for C Ternary Operator from the list.",
+        "Id" : "a0g6D0000013AZRQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZSQA2"
+        },
+        "Answer_Picklist__c" : "A Function is a group of c statements which can be reused any number of times.,Every Function has a return type.,Every Function may no may not return a value.,All the above.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above.",
+        "Name" : "Ques-0057",
+        "Question__c" : "Choose correct statement about Functions in C Language.",
+        "Id" : "a0g6D0000013AZSQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZTQA2"
+        },
+        "Answer_Picklist__c" : "Self Function,Auto Function,Recursive Function,Static Function",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Recursive Function",
+        "Name" : "Ques-0058",
+        "Question__c" : "A function which calls itself is called a ___ function.",
+        "Id" : "a0g6D0000013AZTQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZUQA2"
+        },
+        "Answer_Picklist__c" : "Only One Value,Maximum of two values,Maximum of three values,Maximum of 8 values",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Only One Value",
+        "Name" : "Ques-0059",
+        "Question__c" : "How many values can a C Function return at a time.?",
+        "Id" : "a0g6D0000013AZUQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZVQA2"
+        },
+        "Answer_Picklist__c" : "Library Functions,User Defined Functions,Both Library and User Defined,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Both Library and User Defined",
+        "Name" : "Ques-0060",
+        "Question__c" : "What are types of Functions in C Language.?",
+        "Id" : "a0g6D0000013AZVQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZWQA2"
+        },
+        "Answer_Picklist__c" : "printf(),show(),scanf(),main()",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "main()",
+        "Name" : "Ques-0061",
+        "Question__c" : "Every C Program should contain which function.?",
+        "Id" : "a0g6D0000013AZWQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZJQA2"
+        },
+        "Answer_Picklist__c" : "Percentage Operator,Quotient Operator,Modulus,Division",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Modulus",
+        "Name" : "Ques-0048",
+        "Question__c" : "Operator % in C Language is called.?",
+        "Id" : "a0g6D0000013AZJQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZ9QAM"
+        },
+        "Answer_Picklist__c" : "Object Oriented,Procedural,Bit level language,Functional",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Procedural",
+        "Name" : "Ques-0038",
+        "Question__c" : "C is _______ type of programming language.?",
+        "Id" : "a0g6D0000013AZ9QAM"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZAQA2"
+        },
+        "Answer_Picklist__c" : "Android,Linux,Ubuntu,Unix",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Unix",
+        "Name" : "Ques-0039",
+        "Question__c" : "C language was invented to develop which Operating System.?",
+        "Id" : "a0g6D0000013AZAQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZBQA2"
+        },
+        "Answer_Picklist__c" : "Databases,Graphic applications,Word Processors,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All of the above",
+        "Name" : "Ques-0040",
+        "Question__c" : "C language is used in the development of .?",
+        "Id" : "a0g6D0000013AZBQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZCQA2"
+        },
+        "Answer_Picklist__c" : "Statements,Functions,Variables,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All of the above",
+        "Name" : "Ques-0041",
+        "Question__c" : "C program is a combination of.?",
+        "Id" : "a0g6D0000013AZCQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZDQA2"
+        },
+        "Answer_Picklist__c" : "Alphabet,Underscore,Any character that can be typed on a keyboard,Option A & Option B",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Option A & Option B",
+        "Name" : "Ques-0042",
+        "Question__c" : "An Identifier can start with.?",
+        "Id" : "a0g6D0000013AZDQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZEQA2"
+        },
+        "Answer_Picklist__c" : "3.145,34,\"125\",None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "34",
+        "Name" : "Ques-0043",
+        "Question__c" : "Find an integer constant.",
+        "Id" : "a0g6D0000013AZEQA2"
+      } ],
+      "Post" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZFQA2"
+        },
+        "Answer_Picklist__c" : "12.3E5,12e34,125.34857,All the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above",
+        "Name" : "Ques-0044",
+        "Question__c" : "Find a Floating Point constant.",
+        "Id" : "a0g6D0000013AZFQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZGQA2"
+        },
+        "Answer_Picklist__c" : "TRUE,FALSE,It depends on the place the variable is declared,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "TRUE",
+        "Name" : "Ques-0045",
+        "Question__c" : "A Variable of a particular type can hold only a constant of the same type. Choose right answer.",
+        "Id" : "a0g6D0000013AZGQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZHQA2"
+        },
+        "Answer_Picklist__c" : "short,int,long,All the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above",
+        "Name" : "Ques-0046",
+        "Question__c" : "Types of Integers are.?",
+        "Id" : "a0g6D0000013AZHQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZIQA2"
+        },
+        "Answer_Picklist__c" : "A Positive number,A Negative Number,An Unsigned number,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "A Positive number",
+        "Name" : "Ques-0047",
+        "Question__c" : "Left most bit 0 in Singed representation indicates.?",
+        "Id" : "a0g6D0000013AZIQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZKQA2"
+        },
+        "Answer_Picklist__c" : "Integer,Real number,Depends on the numbers used in the expression,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Real number",
+        "Name" : "Ques-0049",
+        "Question__c" : "Output of an arithmetic expression with integers and real numbers is ___ by default.?",
+        "Id" : "a0g6D0000013AZKQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZLQA2"
+        },
+        "Answer_Picklist__c" : "a = 10,a = 14.867,a = 14,compiler error.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "a = 14",
+        "Name" : "Ques-0050",
+        "Question__c" : "Choose a right statement-int a = 10 + 4.867;",
+        "Id" : "a0g6D0000013AZLQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZMQA2"
+        },
+        "Answer_Picklist__c" : "var = 8.0,var = 8,var = 7,var = 0.0",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "var = 8.0",
+        "Name" : "Ques-0051",
+        "Question__c" : "Choose a right statement-float var = 3.5 + 4.5;",
+        "Id" : "a0g6D0000013AZMQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZNQA2"
+        },
+        "Answer_Picklist__c" : "* > / > %,% > * > /.Both % = / and  *  are same,All three are same.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All three are same.",
+        "Name" : "Ques-0052",
+        "Question__c" : "What is the priority of operators *, / and % in C language.?",
+        "Id" : "a0g6D0000013AZNQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZOQA2"
+        },
+        "Answer_Picklist__c" : "?:,:?,:<,<:",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "?:",
+        "Name" : "Ques-0053",
+        "Question__c" : "Choose a C Conditional Operator from the list.",
+        "Id" : "a0g6D0000013AZOQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZPQA2"
+        },
+        "Answer_Picklist__c" : "else if is compulsory to use with if statement,else is compulsory to use with if statement,else or else if is optional with if statement,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "else or else if is optional with if statement",
+        "Name" : "Ques-0054",
+        "Question__c" : "Choose a statement to use C If Else statement.",
+        "Id" : "a0g6D0000013AZPQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZQQA2"
+        },
+        "Answer_Picklist__c" : "NOT (!) > AND (&&)  > OR (||),NOT (!) > AND (&&) = OR (||),AND (&&) > OR (||) > NOT (!),AND (&&) = OR (||) > NOT (!)",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "NOT (!) > AND (&&)  > OR (||)",
+        "Name" : "Ques-0055",
+        "Question__c" : "What is the Priority of C Logical Operators.? NOT (!), AND (&&) and OR (||)",
+        "Id" : "a0g6D0000013AZQQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZRQA2"
+        },
+        "Answer_Picklist__c" : "condition ? expression1 : expression2,condition : expression1 ? expression2,condition ? expression1 < expression2,condition < expression1 ? expression2",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "condition ? expression1 : expression2",
+        "Name" : "Ques-0056",
+        "Question__c" : "Choose a syntax for C Ternary Operator from the list.",
+        "Id" : "a0g6D0000013AZRQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZSQA2"
+        },
+        "Answer_Picklist__c" : "A Function is a group of c statements which can be reused any number of times.,Every Function has a return type.,Every Function may no may not return a value.,All the above.",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All the above.",
+        "Name" : "Ques-0057",
+        "Question__c" : "Choose correct statement about Functions in C Language.",
+        "Id" : "a0g6D0000013AZSQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZTQA2"
+        },
+        "Answer_Picklist__c" : "Self Function,Auto Function,Recursive Function,Static Function",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Recursive Function",
+        "Name" : "Ques-0058",
+        "Question__c" : "A function which calls itself is called a ___ function.",
+        "Id" : "a0g6D0000013AZTQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZUQA2"
+        },
+        "Answer_Picklist__c" : "Only One Value,Maximum of two values,Maximum of three values,Maximum of 8 values",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Only One Value",
+        "Name" : "Ques-0059",
+        "Question__c" : "How many values can a C Function return at a time.?",
+        "Id" : "a0g6D0000013AZUQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZVQA2"
+        },
+        "Answer_Picklist__c" : "Library Functions,User Defined Functions,Both Library and User Defined,None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Both Library and User Defined",
+        "Name" : "Ques-0060",
+        "Question__c" : "What are types of Functions in C Language.?",
+        "Id" : "a0g6D0000013AZVQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZWQA2"
+        },
+        "Answer_Picklist__c" : "printf(),show(),scanf(),main()",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "main()",
+        "Name" : "Ques-0061",
+        "Question__c" : "Every C Program should contain which function.?",
+        "Id" : "a0g6D0000013AZWQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZJQA2"
+        },
+        "Answer_Picklist__c" : "Percentage Operator,Quotient Operator,Modulus,Division",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Modulus",
+        "Name" : "Ques-0048",
+        "Question__c" : "Operator % in C Language is called.?",
+        "Id" : "a0g6D0000013AZJQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZ9QAM"
+        },
+        "Answer_Picklist__c" : "Object Oriented,Procedural,Bit level language,Functional",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Procedural",
+        "Name" : "Ques-0038",
+        "Question__c" : "C is _______ type of programming language.?",
+        "Id" : "a0g6D0000013AZ9QAM"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZAQA2"
+        },
+        "Answer_Picklist__c" : "Android,Linux,Ubuntu,Unix",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Unix",
+        "Name" : "Ques-0039",
+        "Question__c" : "C language was invented to develop which Operating System.?",
+        "Id" : "a0g6D0000013AZAQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZBQA2"
+        },
+        "Answer_Picklist__c" : "Databases,Graphic applications,Word Processors,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All of the above",
+        "Name" : "Ques-0040",
+        "Question__c" : "C language is used in the development of .?",
+        "Id" : "a0g6D0000013AZBQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZCQA2"
+        },
+        "Answer_Picklist__c" : "Statements,Functions,Variables,All of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "All of the above",
+        "Name" : "Ques-0041",
+        "Question__c" : "C program is a combination of.?",
+        "Id" : "a0g6D0000013AZCQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZDQA2"
+        },
+        "Answer_Picklist__c" : "Alphabet,Underscore,Any character that can be typed on a keyboard,Option A & Option B",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "Option A & Option B",
+        "Name" : "Ques-0042",
+        "Question__c" : "An Identifier can start with.?",
+        "Id" : "a0g6D0000013AZDQA2"
+      }, {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013AZEQA2"
+        },
+        "Answer_Picklist__c" : "3.145,34,\"125\",None of the above",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001ScONQA0",
+        "Expected_Answer__c" : "34",
+        "Name" : "Ques-0043",
+        "Question__c" : "Find an integer constant.",
+        "Id" : "a0g6D0000013AZEQA2"
+      } ]
+    } ],
+    "CEModules" : [ {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lu2aQAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fYgiQAE",
+        "Course_Master__c" : "a0b6D000001PCNZQA4",
+        "Description__c" : "Comparison between C and C++ and how does compiler works",
+        "Id" : "a0p6D000000lu2aQAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "Understanding compiler, coding in c and c++",
+        "Name" : "Transferring Skills",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : [ {
+        "attributes" : {
+          "type" : "Assessment_Question__c",
+          "url" : "/services/data/v52.0/sobjects/Assessment_Question__c/a0g6D0000013M9aQAE"
+        },
+        "Answer_Picklist__c" : "1,2,3,4",
+        "Answer_Type__c" : "Picklist",
+        "Assessment_Question_Master__c" : "a0f6D000001SlpqQAC",
+        "Expected_Answer__c" : "3",
+        "Name" : "Ques-0294",
+        "Question__c" : "question 5wfeeshrdjd",
+        "Id" : "a0g6D0000013M9aQAE"
+      } ]
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lu2bQAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fYgiQAE",
+        "Course_Master__c" : "a0b6D000001PCNZQA4",
+        "Description__c" : "Components of a function such as objects, functions",
+        "Id" : "a0p6D000000lu2bQAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "introduction to Coding Language",
+        "Name" : "Getting started",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : null
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lu2cQAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fYgiQAE",
+        "Course_Master__c" : "a0b6D000001PCNZQA4",
+        "Description__c" : "How to create object&#39;s instance and classes",
+        "Id" : "a0p6D000000lu2cQAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "defining objects and classes",
+        "Name" : "Programming Objects",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : null
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lu2dQAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fYgiQAE",
+        "Course_Master__c" : "a0b6D000001PCNZQA4",
+        "Description__c" : "Functions accepting different parameters as per requirement",
+        "Id" : "a0p6D000000lu2dQAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "making functions to perform some opertion",
+        "Name" : "Creating fuctions",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : null
+    }, {
+      "record" : {
+        "attributes" : {
+          "type" : "CE_Modules__c",
+          "url" : "/services/data/v52.0/sobjects/CE_Modules__c/a0p6D000000lu2eQAA"
+        },
+        "Active__c" : true,
+        "Course_Enrollment__c" : "a0i6D000000fYgiQAE",
+        "Course_Master__c" : "a0b6D000001PCNZQA4",
+        "Description__c" : "airthmetic operations, assigning and comparing values",
+        "Id" : "a0p6D000000lu2eQAA",
+        "Is_All_Sessions_Completed__c" : false,
+        "Module_Agenda__c" : "operations such as airthmetic and logical",
+        "Name" : "Performing Operations",
+        "Session_s_Point__c" : 0.00,
+        "Status__c" : "Pending",
+        "Total_Sessions_Completed__c" : 0,
+        "Total_Session__c" : 1
+      },
+      "ModuleAssessmentQuestions" : null
+    } ]
+  } ]
+}
+----------------------------
