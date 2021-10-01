@@ -1,5 +1,8 @@
 //WorkBench
 //"/services/apexrest/v1/CE_Module__c/?id=a0p6D000000llObQAI"
+//pass multiple params in url
+//second param here is used by putting "&"
+//"/services/apexrest/v1/get/get_all_details_under_enrollment/?id=a0i6D000000oRJ5QAM&user_type=Student"
 
 
 @RestResource(urlMapping='/v1/CE_Module__c/')
